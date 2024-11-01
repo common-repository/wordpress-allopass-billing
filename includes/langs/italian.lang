@@ -1,0 +1,103 @@
+<?
+// Lingua foreach, generare un documento diverso: italian.lang, french.lang, etc
+// I nomi delle variabili, ad esempio, _ADD_NEW_DOC_, non deve essere tradotto:)
+
+// Sottomenu wordpress
+define('_WPSM_MYDOCS_', 'I miei documenti');
+define('_WPSM_STATS_', 'Statistiche');
+define('_WPSM_CONFIG_', 'Configurazione');
+define('_WPSM_HELP_', 'Help');
+define('_WPSM_UPDATE_', 'update disponibile');
+
+// Tpls
+
+// Documento
+define('_ADD_NEW_DOC_', 'Aggiungi nuovo documento');
+define('_DOCUMENT_LIST_', 'Elenco dei documenti');
+define('_NO_DOCUMENTS_', 'Non ci sono documenti nel tuo account Allopass');
+define('_NEW_DOCUMENT_NAME_TIT_', 'Nome del documento');
+define('_NEW_DOCUMENT_NAME_DESC_', 'Individuare il nome del documento da proteggere. Essa sarà visibile solo per questo amministratore.');
+define('_NEW_DOCUMENT_URL_TIT_', 'URL del documento');
+define('_NEW_DOCUMENT_URL_DESC_', 'Indirizzo in cui il documento da proteggere è ubicato. Può essere una voce Wordpress (http://www.mysite.com/index.php?p=1) o un file (http:// www.mysite.com / ficheros / protected_document.pdf) ');
+define('Codice di prova _NEW_DOCUMENT_TEST_CODE_TIT_', '');
+define('_NEW_DOCUMENT_TEST_CODE_DESC_', 'Il codice può essere utilizzato per verificare se tutto funziona correttamente. NOTA: solo lettere (az) accettato.');
+define('_NEW_DOCUMENT_NUM_CODES_TIT_', 'Numero di codici');
+define('_NEW_DOCUMENT_NUM_CODES_DESC_', 'Numero di codici richiesti dalla clientela, al fine di accedere al documento protetto.');
+define('_NEW_DOCUMENT_CODE_', 'codici');
+define('_DOWNLOAD_DOC_TXT_', 'Scarica il documento qui');
+
+// Config
+define('_INVALID_LOGIN_DATA_', 'I dati che sono stati introdotti non sono corretti');
+define('_WARN_MULTI_FAILS_', 'Attenzione! Se non riescono a entrare, entrare in contatto con il personale in Allopass');
+define('_USE_FORM_BELOW_', 'Usa il seguente modulo per entrare o');
+define('click _CLICK_HERE_', 'qui');
+define('_GET_AP_ACCOUNT_', 'per avere un account Allopass');
+define('_USERNAME_', 'User');
+define('_Password_ Quelche', 'Password');
+
+define('_NEW_USER_NAME_', 'Nome');
+define('_NEW_USER_SURNAME_', 'Cognome');
+define('_NEW_USER_BIRTHDATE_', 'Compleanno');
+define('_NEW_USER_CONFBIRTH_', 'Questa informazione deve essere valida, dal momento che è utilizzato anche in altre sezioni.');
+define('_NEW_USER_EMAIL_', 'Email');
+define('_NEW_USER_CONFEMAIL_', 'Conferma e-mail');
+define('_SEND_', 'Invia');
+define('_SIGNUP_OK_', 'L\'utente è stato creato correttamente. <br /> Controlla la tua e-mail di sfruttare al di accesso ai dati. <br /> <br /> Grazie.');
+define('_SIGNUP_KO_', 'L\'utente non può essere creata. <br /> È possibile registrare da <a href="%signup_url%" target="_blank"> la pagina web Allopass </ a> <br /> Sorry per il disagio. ');
+
+define('_SELECT_LANG_', 'Seleziona amministratore lingua ');
+
+
+define('_LOGGED_IN_', 'Sei registrato nel tuo conto Allopass');
+define('_NOT_LOGGED_', 'Lei non è registrato nel tuo account Allopass');
+define('_LOGIN_OR_REGISTER_', 'Per favore, accedi con il tuo account o registrati nel');
+define('pagina di configurazione _CONFIG_PAGE_', '');
+
+
+// Stats
+define('_INSERT_LINK_TEXT_', 'Inserisci il testo che si collega al documento');
+define('_INSERT_LINK_TEXT_', 'Clicca qui per la configurazione della raccolta dei vostri guadagni.');
+
+
+// Allopass
+define('_WHATS_ALLOPASS_', 'Allopass è un micro-sistema di pagamento che consente di gestire i contenuti di pagamento nella vostra pagina web
+         <br>
+         Per iniziare, immettere nel <a href=\'admin.php?page=ap_configuration\'> pagina lconfiguration </ a> per gestire il tuo account. ');
+
+// Help
+define("_HELP_CREATE_ACCOUNT_", "Crea il tuo account Allopass");
+define("_HELP_CREATE_ACCOUNT_DET_1_", "Il primo passo è quello di creare il tuo account Allopass");
+define("_IN_THIS_FORM_", "in questa forma");
+define("_HELP_CREATE_ACCOUNT_DET_2_", "Una volta che hai il tuo account, puoi <a href='admin.php?page=ap_configuration'> entrare </ a> e creare i vostri documenti.");
+
+define("_HELP_CREATE_DOCUMENT_", "Crea il tuo documenti");
+define("_HELP_CREATE_DOCUMENT_DET_1_", "È possibile creare documenti protetti <a href='admin.php?page=ap_mydocuments'> qui </ a>.
+         <br />
+         Dovete compilare in 4 campi simples:
+         <br />
+         - nome del documento: un nome identificativo per l'uso di amministrazione. <br />
+         - URL del documento: può essere un post dal tuo blog (http://www.mysite.com/index.php?p=1) o un file (http://www.mysite.com / protected_document.pdf) <br />
+         - Codice test: codice che deve essere in grado di test o il modulo di pagamento. <br />
+         - numero di codici: quantità di codici necessari per accedere al documenent di pagamento. ");
+
+define("_HELP_PAYMENTS_", "Gli utili di pagamento");
+define("_HELP_PAYMENTS_DET_1_", "per raccogliere i vostri guadagni, vai alla pagina href='http://www.allopass.com' <a target='_blank'> Allopass </ a> e accedere alla sezione Il mio account / Collect i miei guadagni. ");
+
+define("_HELP_ADD_DOCUMENT_", "Aggiungi i documenti per i posti");
+define("_HELP_ADD_DOCUMENT_DET_1_", "Quando si scrive un post, dovete cliccare sul Allopass <img valign='middle' src='".URL_AP_ROOT."includes/allopass.gif'> sull'icona per aggiungere l'accesso.
+         <br /> Devi solo selezionare il documento protetto e aggiungere il testo di collegamento.
+         <br /> Nel rapporto con i posti completate che sono protetti, (http://www.mysite.com/index.php?p=1), sono protetti automaticamente quando il tag URL, un nuovo documento in <a href='admin.php?page=ap_mydocuments'>"._WPSM_MYDOCS_."</ a> (punto 2 ).");
+
+// Update
+define('_UPDATE_AVAILABLE_', 'C\'è una nuova versione del plug in disponibili, che potete scaricare qui <a href="http://www.wordpressallopass.com/plugins/plugin.zip"> </a>' );
+
+
+define('_INSERT_LINK_TEXT_', 'Testo che si collega al documento');
+define('_SELECT_DOCUMENT2ADD_', 'Selec un documento da aggiungere');
+define('_ADD_', 'Aggiungi');
+define('_CHANGE_', 'Change');
+
+// Public
+define('_PROTECTED_ENTRY_', 'Questo post è protetto. Clicca qui per accedere.');
+define('_INVALID_CODE_', 'Il codice introdotto è errato. <br /> contatta <a href="mailto:support@allopass.com"> Allopass </ a> per ulteriori informazioni. <br /> Ci scusiamo per l\'inconveniente . ');
+?>

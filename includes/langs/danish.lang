@@ -1,0 +1,103 @@
+<?
+// Foreach sprog, generere et andet dokument: english.lang, french.lang, osv.
+// Variabel navne, f.eks _ADD_NEW_DOC_, må ikke blive oversat:)
+
+// Wordpress undermenuer
+define ( '_WPSM_MYDOCS_', 'Mine dokumenter');
+define ( '_WPSM_STATS_', 'Statistik');
+define ( '_WPSM_CONFIG_', 'Konfiguration');
+define ( '_WPSM_HELP_', 'Hjælp');
+define ( '_WPSM_UPDATE_', 'Tilgængelige update');
+
+// Tpls
+
+// Dokument
+define ( '_ADD_NEW_DOC_', 'Tilføj nyt dokument');
+define ( '_DOCUMENT_LIST_', 'Liste over dokumenter');
+define ( '_NO_DOCUMENTS_', 'Der er ingen dokumenter i din allopass konto');
+define ( '_NEW_DOCUMENT_NAME_TIT_', 'Navn på dokumentet');
+define ( '_NEW_DOCUMENT_NAME_DESC_', 'Identificering af navnet på det dokument, der skal beskyttes. Det vil kun være synlige for denne administrator.');
+define ( '_NEW_DOCUMENT_URL_TIT_', 'URL af dokumentet');
+define ( '_NEW_DOCUMENT_URL_DESC_', 'Adresse, hvor det dokument, der skal beskyttes, er beliggende. Det kan være en Wordpress indrejse (http://www.mysite.com/index.php?p=1) eller en fil (http:// www.mysite.com / ficheros / protected_document.pdf) ');
+define ( '_NEW_DOCUMENT_TEST_CODE_TIT_', 'Test-kode');
+define ( 'kan _NEW_DOCUMENT_TEST_CODE_DESC_', 'Den kode kan bruges til at kontrollere, om alt fungerer korrekt. BEMÆRK: Du skal bare bogstaver (az) accepteret.');
+define ( '_NEW_DOCUMENT_NUM_CODES_TIT_', 'Antal koder');
+define ( '_NEW_DOCUMENT_NUM_CODES_DESC_', 'Antal koder kræves af gæsten for at få adgang til beskyttet dokument.');
+define ( '_NEW_DOCUMENT_CODE_', 'koder');
+define ( '_DOWNLOAD_DOC_TXT_', 'Download dokumentet her');
+
+// Config
+define ( '_INVALID_LOGIN_DATA_', 'De data, du har indført, er forkert');
+define ( '_WARN_MULTI_FAILS_', 'Attention! Hvis du ikke formår at komme ind, komme i kontakt med allopass personlige i');
+define ( '_USE_FORM_BELOW_', 'Brug nedenstående formular for at indtaste eller');
+define ( '_CLICK_HERE_', 'Klik her');
+define ( '_GET_AP_ACCOUNT_', 'for at få en allopass konto');
+define ( '_USERNAME_', 'Bruger');
+define ( '_PASSWORD_', 'Password');
+
+define ( '_NEW_USER_NAME_', 'Navn');
+define ( '_NEW_USER_SURNAME_', 'efternavn');
+define ( '_NEW_USER_BIRTHDATE_', 'Fødselsdag');
+define ( '_NEW_USER_CONFBIRTH_', 'Denne information skal være gyldigt, da det også bruges i andre sektioner.');
+define ( '_NEW_USER_EMAIL_', 'Email');
+define ( '_NEW_USER_CONFEMAIL_', 'Bekræft e-mail');
+define ( '_SEND_', 'Send');
+define ( 'har _SIGNUP_OK_', 'Brugeren er blevet oprettet korrekt. <br /> Tjek din e-mail til obtein for adgang til data. <br /> <br /> Tak.');
+define ( '_SIGNUP_KO_', 'Brugeren kunne ikke oprettes. <br /> Du kan tilmelde dig fra <a href="%signup_url%" target="_blank"> den Allopass web-side </ a> <br /> Sorry for ulejligheden. ');
+
+define ( '_SELECT_LANG_', 'Vælg administrator \' s sprog ');
+
+
+define ( '_LOGGED_IN_', 'Du er logget på din allopass konto');
+define ( '_NOT_LOGGED_', 'Du er ikke logget ind på din allopass konto');
+define ( '_LOGIN_OR_REGISTER_', 'Vær venlig at logge ind med din konto eller registrere i');
+define ( '_CONFIG_PAGE_', 'konfiguration side');
+
+
+// Statistik
+define ( '_INSERT_LINK_TEXT_', 'Indsæt den tekst, der linker til dokumentet');
+define ( '_INSERT_LINK_TEXT_', 'Klik her for konfiguration af indsamlingen af dine gevinster.');
+
+
+// Allopass
+define ( '_WHATS_ALLOPASS_', 'Allopass er en mikro-betalingssystem, der giver dig mulighed for at styre indholdet af betaling på din webside
+         <br>
+         At starte, skal du indtaste i <a href=\'admin.php?page=ap_configuration\'> lconfiguration side </ a> for at administrere din konto. ');
+
+// Help
+define ( "_HELP_CREATE_ACCOUNT_", "Opret dig allopass konto");
+define ( "_HELP_CREATE_ACCOUNT_DET_1_", "Det første skridt er at oprette dig allopass konto");
+define ( "_IN_THIS_FORM_", "i denne form");
+define ( "_HELP_CREATE_ACCOUNT_DET_2_", "Når du har din konto, kan du <a href='admin.php?page=ap_configuration'> ind </ a> og oprette dine dokumenter.");
+
+define ( "_HELP_CREATE_DOCUMENT_", "Opret dine dokumenter");
+define ( "_HELP_CREATE_DOCUMENT_DET_1_", "Du kan oprette dine beskyttede dokumenter <a href='admin.php?page=ap_mydocuments'> her </ a>.
+         <br />
+         Du skal udfylde i 4 simples områder:
+         <br />
+         - navnet på det dokument: en identifikation navn til administration brug. <br />
+         - url af dokumentet: det kan være et indlæg fra din blog (http://www.mysite.com/index.php?p=1) eller en fil (http://www.mysite.com / protected_document.pdf) <br />
+         - test-kode: kode for at kunne o teste betaling. <br />
+         - Antallet af koder: mængden af koder, der kræves for at få adgang til documenent for betaling. ");
+
+define ( "_HELP_PAYMENTS_", "Gevinster betaling");
+define ( "_HELP_PAYMENTS_DET_1_", "at samle dine gevinster, skal du gå til siden <a href='http://www.allopass.com  target='_blank'> Allopass </ a> og få adgang til min konto sektionen / Collect mine gevinster. ");
+
+define ( "_HELP_ADD_DOCUMENT_", "Tilføj dokumenter til de stillinger,");
+define ( "_HELP_ADD_DOCUMENT_DET_1_", "Når du skriver et indlæg, skal du klikke på allopass <img valign='middle' src='".URL_AP_ROOT."includes/allopass.gif'> ikonet for at tilføje adgang.
+         <br /> Du behøver kun at vælge de beskyttede dokument og tilføje den forbinder tekst.
+         <br /> I forbindelse med den udfyldte stillinger, der er beskyttet, (http://www.mysite.com/index.php?p=1), bliver de automatisk beskyttet, når du mærke den url som et nyt dokument i <a href='admin.php?page=ap_mydocuments'>"._WPSM_MYDOCS_." </ a> (punkt 2 ).");
+
+// Update
+define ( '_UPDATE_AVAILABLE_', 'Der er en ny version af plug i til rådighed, som du kan <a href="http://www.wordpressallopass.com/plugins/plugin.zip"> downloade her </ a>' );
+
+
+define ( '_INSERT_LINK_TEXT_', 'tekst, der linker til dokumentet');
+define ( '_SELECT_DOCUMENT2ADD_', 'valgt et dokument for at tilføje');
+define ( '_ADD_', 'Tilføj');
+define ( '_CHANGE_', 'Ændre');
+
+// Public
+define ( '_PROTECTED_ENTRY_', 'Dette indlæg er beskyttet. Klik her for at få adgang.');
+define ( '_INVALID_CODE_', 'Den indførte kode er forkert. <br /> Kontakt <a href="mailto:support@allopass.com"> Allopass </ a> for mere information. <br /> Undskyld ulejligheden . ');
+?>

@@ -1,0 +1,95 @@
+<?
+// Foreach dil,,, vb french.lang farkli bir belge: english.lang olusturmak
+
+// Wordpress alt
+define('_WPSM_MYDOCS_',' My belgeleri belirlemek');
+define('_WPSM_STATS_', 'Istatistikler');
+define('_WPSM_CONFIG_', 'Yapilandirma');
+define('_WPSM_HELP_','Yardim');
+define('_WPSM_UPDATE_','Msait gncelleme');
+
+// Tpls
+
+// Belge
+define('_ADD_NEW_DOC_', 'yeni bir belge ekle');
+define(' _DOCUMENT_LIST_ ','Listesi belge');
+define('_NO_DOCUMENTS_', 'Bu sizin allopass hesabinizda hiþbir belge are');
+define('_NEW_DOCUMENT_NAME_TIT_','Isim belge of');
+define('_NEW_DOCUMENT_NAME_DESC_', 'belgenin adini belirleme tanimlamak korunacak. sadece bu yönetici için.');
+define('_NEW_DOCUMENT_URL_TIT_', 'URL belge of');
+define('_NEW_DOCUMENT_URL_DESC_', 'Adres nerede belge korunacak yer almaktadir. bir Wordpress giris (http://www.mysite.com/index.php?p=1) veya bir dosya olabilir (http:// www.mysite.com / ficheros / protected_document.pdf) ');
+define('_NEW_DOCUMENT_TEST_CODE_TIT_','Test kodu');
+define('_NEW_DOCUMENT_TEST_CODE_DESC_', 'kodunu seyin düzgün sekilde çalistigini dogrulamak için kullanilabilir. NOT: sadece harfler (az) kabul edilir.');
+define('_NEW_DOCUMENT_NUM_CODES_TIT_', 'Sayi kodlarinin');
+define('_NEW_DOCUMENT_NUM_CODES_DESC_', 'Sayi kodlari ortalama gerektirdigi amaciyla korumali belgeye erisim.');
+define('_NEW_DOCUMENT_CODE_','kodlari tanimlamak');
+define('_DOWNLOAD_DOC_TXT_', 'burada belge Download');
+
+// Config
+define('_INVALID_LOGIN_DATA_', 'anlatmistim var veri tanimlamak yanlis');
+define('_WARN_MULTI_FAILS_', 'Dikkat define Eger girmek için, allopass kisisel ile temas halinde olsun) idare etmez');
+define('_USE_FORM_BELOW_', 'veya girmek için asagidaki formu kullanin');
+define('_CLICK_HERE_','click Burada');
+define('_GET_AP_ACCOUNT_', 'bir allopass hesabi almak için');
+define('_USERNAME_', 'Kullanici');
+define('_PASSWORD_', 'Sifre');
+
+define('_NEW_USER_NAME_','Isim');
+define('_NEW_USER_SURNAME_', 'Soyadi');
+define('_NEW_USER_BIRTHDATE_', 'Dogum günü');
+define('_NEW_USER_CONFBIRTH_', 'Bu bilgiler bulunmaktadir, çünkü diger bölümlerde kullanilir.');
+define('_NEW_USER_EMAIL_', 'Email');
+define('_NEW_USER_CONFEMAIL_','geçerli onayla e-posta');
+define('_SEND_', 'Gönder');
+define('_SIGNUP_OK_', 'kullanici dogru olusturuldu tanimlar. <br /> e-posta erisimi veri obtein için. <br /> <br /> tesekkür ederiz kontrol edin.');
+define('_SIGNUP_KO_', 'olusturulamadi kullanici. define <br /> Bu <a dahil olabilir href="%signup_url%" target="_blank"> Allopass web sayfasi </a> <br /> _zgünüz rahatsizliktan dolayi. ');
+
+define('_SELECT_LANG_', 'Seç y netici  dil var');
+
+define('_LOGGED_IN_', 'Kendi allopass hesabinizda oturum tanimlamak');
+define('_NOT_LOGGED_', 'Kendi allopass hesabinizda yapmadiniz tanimlamak');
+define('_LOGIN_OR_REGISTER_', 'Lütfen, hesabiniza veya üye ile oturum');
+define('_CONFIG_PAGE_','Yapilandirma sayfasi');
+
+// Allopass
+define('_WHATS_ALLOPASS_', 'Allopass bu web sayfasinda ödeme içerigini yönetmenize olanak saglayan bir mikro ödeme sistemidir
+         <br>
+         , <a href=\'admin.php?page=ap_configuration\'> lconfiguration sayfasi baslatmak için </a> hesabinizi yönetmek için. ');
+
+// Help
+define("_HELP_CREATE_ACCOUNT_", "sen allopass hesap olusturun");
+define("_HELP_CREATE_ACCOUNT_DET_1_", "ilk adim allopass hesabi olusturmak için oldugunu") ;
+define( "_IN_THIS_FORM_", "Bu formu olarak tanimlamak");
+define("_HELP_CREATE_ACCOUNT_DET_2_", "Hesabinizi varsa, <a href='admin.php?page=ap_configuration'> girmek </a> ve belge olusturmak.");
+
+define("_HELP_CREATE_DOCUMENT_", "dokümanlarinizi olusturun");
+define("_HELP_CREATE_DOCUMENT_DET_1_", "Sen korumali belgeleri <a olusturabilirsiniz href='admin.php?page=ap_mydocuments'> burada </a>.
+         <br />
+         Sen 4 simples alanlari doldurmak zorunda:
+         <br />
+         belgenin - Adi: tanimlayici bir ad yönetim için. <br />
+         - belgenin url: Blogunuza (http://www.mysite.com/index.php?p=1) veya (http://www.mysite.com dosyasi bir mesaj olabilir / protected_document.pdf) <br />
+         - test kodu: kodu olmak mümkün o testi ödeme formu. <br />
+         kodlarinin - sayi kodlari amaciyla ödeme documenent erismek için gereken miktar. ");
+
+define( "_HELP_PAYMENTS_", "kazanç ödeme");
+define("_HELP_PAYMENTS_DET_1_", ", sayfa <a href='http://www.allopass.com' için target='_blank'> Allopass </a> gidin kazanç toplamak için ve Hesabim bölümüne erisim / Collect benim kazanir. ");
+
+define("_HELP_ADD_DOCUMENT_", "mesaj için documents");
+define("_HELP_ADD_DOCUMENT_DET_1_", "Bir yazi yazmak, tiklatip allopass <img valign='middle' src='".URL_AP_ROOT."includes/allopass.gif'> simgesi var.
+         <br /> yalnizca korumali belgeyi seçmek ve baglama metin eklemek var.
+         <br /> bu korunan tamamlanmis mesaj, (http://www.mysite.com/index.php?p=1) ile ilgili olarak, bunlar otomatik olarak yeni bir belge olarak url etiketi korunur <a href='admin.php?page=ap_mydocuments'>"._WPSM_MYDOCS_."</a> (2 noktasi ).");
+
+// Güncelleme
+define('_UPDATE_AVAILABLE_', 'Bu eklenti yeni bir sürümü de, bir sizin <a href="http://www.wordpressallopass.com/plugins/plugin.zip"> buradan indirin </a>' );
+
+
+define('_INSERT_LINK_TEXT_', 'Metin bu belge için baglantilari');
+define('_SELECT_DOCUMENT2ADD_', 'SELEC belge eklemek için');
+define('_ADD_', 'Ekle');
+define('_CHANGE_', 'Degistir');
+
+// Public
+define('_PROTECTED_ENTRY_', 'Bu yazi korunmaktadir. erismek için tiklayiniz.');
+define( '_INVALID_CODE_', 'kodun yanlis tanimlar. <br /> Lütfen <a href="mailto:support@allopass.com"> Allopass </a>Daha fazla bilgi için. <br /> rahatsizliktan dolayi özür dileriz . ');
+?>

@@ -1,0 +1,103 @@
+<?
+// FOREACH языка, создавать различные документы: english.lang, french.lang, и т.д.
+// Имена переменных, например, _ADD_NEW_DOC_, не должно быть переведено:)
+
+// WordPress подменю
+define('_WPSM_MYDOCS_', 'Мои документы');
+define('_WPSM_STATS_', 'Статистика');
+define('_WPSM_CONFIG_', 'Configuration');
+define('_WPSM_HELP_', 'Помощь');
+define('_WPSM_UPDATE_', 'Доступные обновления');
+
+// Tpls
+
+// Документ
+define('_ADD_NEW_DOC_', 'Добавить новый документ');
+define('_DOCUMENT_LIST_', 'Просмотр документов');
+define('_NO_DOCUMENTS_', 'Есть никаких документов allopass в вашей учетной записи');
+define('_NEW_DOCUMENT_NAME_TIT_', 'Название документа ');
+define('_NEW_DOCUMENT_NAME_DESC_', 'определение названия документа, который будет защищена. Она будет доступна только в этом администратору.');
+define('_NEW_DOCUMENT_URL_TIT_', 'URL документа');
+define('_NEW_DOCUMENT_URL_DESC_', 'Адрес когда документ на защиту находится. Это может быть вступление Wordpress (http://www.mysite.com/index.php?p=1) или файла (http:// www.mysite.com / ficheros / protected_document.pdf) ');
+define('_NEW_DOCUMENT_TEST_CODE_TIT_', 'Test Code');
+define('_NEW_DOCUMENT_TEST_CODE_DESC_', 'Этот код может быть использован для проверки, если все работает правильно. Примечание: только буквы (AZ) принимаются.');
+define('_NEW_DOCUMENT_NUM_CODES_TIT_', 'ряд кодексов');
+define('_NEW_DOCUMENT_NUM_CODES_DESC_', 'количество кодов требуется гостя для того, чтобы получить доступ к защищенному документу.');
+define('_NEW_DOCUMENT_CODE_', 'Коды');
+define('_DOWNLOAD_DOC_TXT_', 'Загрузить документ здесь');
+
+// Config
+define('_INVALID_LOGIN_DATA_', 'данные, которые вы ввели неправильные');
+define('_WARN_MULTI_FAILS_', 'Внимание! Если вам не удается войти, вступить в контакт с личным allopass в');
+define('_USE_FORM_BELOW_', 'Используйте следующую форму для ввода или');
+define('_CLICK_HERE_', 'Нажмите здесь');
+define('_GET_AP_ACCOUNT_', 'для получения allopass счет');
+define('_USERNAME_', 'Пользователь');
+define('_PASSWORD_', 'Пароль');
+
+define('_NEW_USER_NAME_', 'Имя');
+define('_NEW_USER_SURNAME_', 'фамилия');
+define('_NEW_USER_BIRTHDATE_', 'рождения');
+define('_NEW_USER_CONFBIRTH_', 'Эта информация должна быть действительным, так как он также используется в других разделах.');
+define('_NEW_USER_EMAIL_', 'Email');
+define('_NEW_USER_CONFEMAIL_', 'Подтверждение Email');
+define('_SEND_', 'Отправить');
+define('_SIGNUP_OK_', 'пользователь был создан правильно. <br /> Проверьте вашу электронную почту obtein доступа к данным. <br /> <br /> Спасибо.');
+define('_SIGNUP_KO_', 'пользователь не может быть создан. <br /> Вы можете зачислить с <a href="%signup_url%" target="_blank"> странице Allopass Сети </a> <br /> Sorry за причиненные неудобства. ');
+
+define('_SELECT_LANG_', 'Выберите Администратор \' S язык ');
+
+
+define('_LOGGED_IN_', 'Вы вошли в вашу allopass счет');
+define('_NOT_LOGGED_', 'Вы не вошли в вашу allopass счет');
+define('_LOGIN_OR_REGISTER_', 'Пожалуйста, войдите в систему с вашей учетной записью или зарегистрируйтесь в');
+define('_CONFIG_PAGE_', 'Страница конфигурации');
+
+
+// Stats
+define('_INSERT_LINK_TEXT_', 'Включить текст, содержащий ссылку на документ');
+define('_INSERT_LINK_TEXT_', 'Щелкните здесь для конфигурации коллекции ваших доходов.');
+
+
+// Allopass
+define('_WHATS_ALLOPASS_', 'Allopass это микро-платежная система, которая позволяет Вам управлять содержимым оплаты в вашей веб-странице
+         <br>
+         Для начала необходимо ввести в <a href=\'admin.php?page=ap_configuration\'> lconfiguration странице </a>, чтобы управлять вашим счетом. ');
+
+// Помощь
+define("_HELP_CREATE_ACCOUNT_", "создать вас allopass счета");
+define("_HELP_CREATE_ACCOUNT_DET_1_", "Первый шаг заключается в создании вы allopass счета");
+define("_IN_THIS_FORM_", "в такой форме");
+define("_HELP_CREATE_ACCOUNT_DET_2_", "Когда у вас есть счет, вы можете <a href='admin.php?page=ap_configuration'> Enter </a> и создайте ваши документы.");
+
+define("_HELP_CREATE_DOCUMENT_", "Создание документов");
+define("_HELP_CREATE_DOCUMENT_DET_1_", "Вы можете создавать ваши защищенные документы <a href='admin.php?page=ap_mydocuments'> здесь </a>.
+         <br />
+         Вы должны заполнить 4 Простая в областях:
+         <br />
+         - название документа: имя для определения властных структур. <br />
+         - URL документа: оно может быть пост из блога (http://www.mysite.com/index.php?p=1) или файл (http://www.mysite.com / protected_document.pdf) <br />
+         - тестовый код: код иметь испытание O формы оплаты. <br />
+         - количество кодов: количество кодов требуется для доступа к documenent платежа. ");
+
+define("_HELP_PAYMENTS_", "Прибыль платежей");
+define("_HELP_PAYMENTS_DET_1_", "собирать ваши завоевания, перейдите на страницу <a href='http://www.allopass.com' target='_blank'> Allopass </a> и доступ к учетной записи Мой раздел / Collect мои достижения. ");
+
+define("_HELP_ADD_DOCUMENT_", "Добавить документы на должности");
+define("_HELP_ADD_DOCUMENT_DET_1_", "Когда вы пишете пост, вы должны нажать на allopass <img valign='middle' src='".URL_AP_ROOT."includes/allopass.gif'> иконку добавить доступ.
+         <br /> Вы только должны выбрать защищенный документ и добавить Образцы текстов.
+         <br /> В связи с завершила должности охраняются, что (http://www.mysite.com/index.php?p=1), они автоматически защищается при тег URL в качестве нового документа в <a href='admin.php?page=ap_mydocuments'>"._WPSM_MYDOCS_."</a> (пункт 2 ).");
+
+// Обновление
+define('_UPDATE_AVAILABLE_', 'Существует новая версия плагина доступна на, что вы можете <a href="http://www.wordpressallopass.com/plugins/plugin.zip"> скачать здесь </a>' );
+
+
+define('_INSERT_LINK_TEXT_', 'текст, содержащий ссылку на документ');
+define('_SELECT_DOCUMENT2ADD_', 'Selec документ для добавления');
+define('_ADD_', 'Добавить');
+define('_CHANGE_', 'Change');
+
+// Общественные
+define('защищена _PROTECTED_ENTRY_', 'этот пост. Нажмите здесь, чтобы доступ.');
+define('_INVALID_CODE_', 'Код введен неверно. <br /> Пожалуйста, свяжитесь с <a href="mailto:support@allopass.com"> Allopass </a> для получения дополнительной информации. <br /> Приносим извинения за неудобства . ');
+?>

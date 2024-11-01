@@ -1,0 +1,102 @@
+<?
+// Foreach taal, het genereren van een ander document: english.lang, french.lang, etc
+// Variabele namen, bijvoorbeeld _ADD_NEW_DOC_, niet moet worden vertaald:)
+
+// Wordpress submenu
+define('_WPSM_MYDOCS_', 'Mijn documenten');
+define('_WPSM_STATS_', 'Statistieken');
+define('_WPSM_CONFIG_', 'Configuratie');
+define('_WPSM_HELP_', 'Help');
+define('_WPSM_UPDATE_', 'Beschikbare update');
+
+// Tpls
+
+// Document
+define('_ADD_NEW_DOC_', 'Voeg nieuwe document');
+define('_DOCUMENT_LIST_', 'Lijst van documenten');
+define('_NO_DOCUMENTS_', 'Er zijn geen documenten in uw Allopass account');
+define('_NEW_DOCUMENT_NAME_TIT_', 'Naam van het document');
+define('_NEW_DOCUMENT_NAME_DESC_', 'Identifying naam van het document te worden beschermd. Het zal alleen zichtbaar zijn voor deze beheerder.');
+define('_NEW_DOCUMENT_URL_TIT_', 'URL van het document');
+define('_NEW_DOCUMENT_URL_DESC_', 'Adres waar het document te beschermen ligt. Het kan een Wordpress entry (http://www.mysite.com/index.php?p=1) of een bestand (http:// www.mysite.com / Ficheros / protected_document.pdf) ');
+define('_NEW_DOCUMENT_TEST_CODE_TIT_', 'Test-code');
+define('_NEW_DOCUMENT_TEST_CODE_DESC_', 'De code kan worden gebruikt om te controleren of alles goed werkt. LET OP: alleen letters (az) aanvaard.');
+define('_NEW_DOCUMENT_NUM_CODES_TIT_', 'Aantal codes');
+define('_NEW_DOCUMENT_NUM_CODES_DESC_', 'Aantal van codes die door de gast in om toegang te krijgen de beschermde document. ');
+define('_NEW_DOCUMENT_CODE_', 'codes');
+define('_DOWNLOAD_DOC_TXT_', 'Download het document hier');
+
+// Config
+define('_INVALID_LOGIN_DATA_', 'De gegevens die u hebt ingevoerd, zijn onjuist');
+define('_WARN_MULTI_FAILS_', 'Let op! Als je er niet in slagen binnen te komen, in contact met de persoonlijke Allopass in');
+define('_USE_FORM_BELOW_', 'Gebruik het volgende formulier in te voeren of');
+define('_CLICK_HERE_', 'klik hier');
+define('_GET_AP_ACCOUNT_', 'om een Allopass account');
+define('_USERNAME_', 'Gebruiker');
+define('_PASSWORD_', 'Wachtwoord');
+
+define('_NEW_USER_NAME_', 'Naam');
+define('_NEW_USER_SURNAME_', 'Achternaam');
+define('_NEW_USER_BIRTHDATE_', 'Birthday');
+define('_NEW_USER_CONFBIRTH_', 'Deze informatie is geldig te zijn, aangezien het ook wordt gebruikt in andere afdelingen. ');
+define('_NEW_USER_EMAIL_', 'Email');
+define('_NEW_USER_CONFEMAIL_', 'Bevestig e-mail');
+define('_SEND_', 'Verzenden');
+define('_SIGNUP_OK_', 'De gebruiker is correct. <br /> Controleer uw e-mail de toegang tot de gegevens te obtein. <br /> <br /> Dank je. ');
+define('_SIGNUP_KO_', 'De gebruiker kan niet worden gemaakt. <br /> U kunt zich inschrijven van <a href="%signup_url%" target="_blank"> de Allopass webpagina </ a> <br /> Sorry voor het ongemak. ');
+
+define('_SELECT_LANG_', 'Selecteer beheerder \' s taal ');
+
+
+define('_LOGGED_IN_', 'U bent ingelogd in uw Allopass account');
+define('_NOT_LOGGED_', 'U bent niet ingelogd in uw Allopass account');
+define('_LOGIN_OR_REGISTER_', 'Please, log in met je account of registreren in het');
+define('_CONFIG_PAGE_', 'configuratie pagina');
+
+
+// Stats
+define('_INSERT_LINK_TEXT_', 'Invoegen van de tekst die links naar het document');
+define('_INSERT_LINK_TEXT_', 'Klik hier voor de configuratie van de collectie van uw winst.');
+
+
+// Allopass
+define('_WHATS_ALLOPASS_', 'Allopass is een micro-betalingssysteem waarmee u de inhoud van betaling beheren in uw webpagina
+         <br>
+         Om te beginnen, voert u in de <a href=\'admin.php?page=ap_configuration\'> lconfiguration pagina </ a> voor het beheer van uw account. ');
+
+// Help
+define("_HELP_CREATE_ACCOUNT_", "Maak je Allopass rekening");
+define("_HELP_CREATE_ACCOUNT_DET_1_", "De eerste stap is het aanmaken van je account Allopass");
+define("_IN_THIS_FORM_", "in deze vorm");
+define("_HELP_CREATE_ACCOUNT_DET_2_", "Als u uw account hebt, kunt u <a href='admin.php?page=ap_configuration'> Enter </ a> en maak uw documenten.");
+
+define("_HELP_CREATE_DOCUMENT_", "Maak uw documenten");
+define("_HELP_CREATE_DOCUMENT_DET_1_", "U kunt uw beveiligde documenten <a href='admin.php?page=ap_mydocuments'> hier </ a>.
+         <br />
+         Je hebt in te vullen simples in 4 domeinen:
+         <br />
+         - naam van het document: het identificeren van een naam voor het beheer gebruik. <br />
+         - URL van het document: het kan een post van uw blog (http://www.mysite.com/index.php?p=1) of een bestand (http://www.mysite.com / protected_document.pdf) <br />
+         - test-code: code te kunnen o test het betalingsformulier. <br />
+         - aantal codes: hoeveelheid van de codes die nodig zijn om toegang tot de documenent van betaling. ");
+
+define("_HELP_PAYMENTS_", "Winsten betaling");
+define("_HELP_PAYMENTS_DET_1_", "om uw winsten te verzamelen, ga naar de pagina <a href='http://www.allopass.com' target='_blank'> Allopass </ a> en toegang tot de Mijn account sectie / Collect mijn winsten. ");
+
+define("_HELP_ADD_DOCUMENT_", "documenten toevoegen aan de berichten");
+define("_HELP_ADD_DOCUMENT_DET_1_", "Als je een bericht te schrijven, moet je klikken op de Allopass <img valign='middle' src='".URL_AP_ROOT."includes/allopass.gif'> icoon in om de toegang toe te voegen.
+         <br /> Je hoeft alleen de beschermde document te selecteren en de koppeling tekst toe te voegen.
+         <br /> In verband met de ingevulde posten die zijn beschermd, (http://www.mysite.com/index.php?p=1), worden ze automatisch beschermd wanneer je de url-tag als een nieuw document in <a href ='admin.php?page=ap_mydocuments'>"._WPSM_MYDOCS_."</ a> (punt 2 ).");
+
+// Update
+define('_UPDATE_AVAILABLE_', 'Er is een nieuwe versie van de plug in beschikbaar is, die u kunt downloaden <a href="http://www.wordpressallopass.com/plugins/plugin.zip"> hier </ a>');
+
+define('_INSERT_LINK_TEXT_', 'Tekst met een koppeling naar het document');
+define('_SELECT_DOCUMENT2ADD_', 'Selec een document toe te voegen');
+define('_ADD_', 'toevoegen');
+define('_CHANGE_', 'Change');
+
+// Openbaar
+define('_PROTECTED_ENTRY_', 'Dit bericht is beveiligd. Klik hier om toegang te krijgen.');
+define('_INVALID_CODE_', 'De ingevoerde code is onjuist. <br /> Neem contact op met <a href="mailto:support@allopass.com"> Allopass </ a> voor meer informatie. <br /> Sorry voor het ongemak . ');
+?>

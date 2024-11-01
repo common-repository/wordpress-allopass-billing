@@ -1,0 +1,31 @@
+<script>
+///////////////////////////////
+// TEXTS FOR POST PROTECTION //
+///////////////////////////////
+
+var PROTECTED_POST = Array();
+PROTECTED_POST["DEFAULT"] = "This post is protected. Click here to access.";
+PROTECTED_POST["DA"] = "Dette indlæg er beskyttet. Klik her for at få adgang. ";
+PROTECTED_POST["DE"] = "Dieser Beitrag ist geschützt. Klicken Sie hier, um den Zugang. ";
+PROTECTED_POST["FR"] = "Ce post est protégé. Cliquez ici pour y acceder.";
+PROTECTED_POST["IT"] = "Questo post è protetto. Clicca qui per accedere. ";
+PROTECTED_POST["NL"] = "Dit bericht is beveiligd. Klik hier om toegang te krijgen.";
+PROTECTED_POST["RU"] = "Это сообщение защищено. Нажмите здесь, чтобы доступ.";
+PROTECTED_POST["TR"] = "Bu postayı korunmaktadır. Erişmek için tıklayınız.";
+PROTECTED_POST["ES"] = "Este post está protegido. Haga click aquí para acceder.";
+
+////////////////////////////
+// TEXTS FOR INVALID CODE //
+////////////////////////////
+
+var INVALID_CODE = Array();
+INVALID_CODE["DEFAULT"] = "You entered an invalid code.";
+INVALID_CODE["DA"] = "Du har indtastet en ugyldig kode.";
+INVALID_CODE["DE"] = "Sie haben einen ungültigen Code.";
+INVALID_CODE["FR"] = "Le code introduit n'est pas correct";
+INVALID_CODE["IT"] = "Hai inserito un codice non valido.";
+INVALID_CODE["NL"] = "U heeft een ongeldige code.";
+INVALID_CODE["RU"] = "Вы ввели неправильный код.";
+INVALID_CODE["TR"] = "Geçersiz bir şifre girdiniz.";
+INVALID_CODE["ES"] = "El código introducido es incorrecto.";
+</script>
